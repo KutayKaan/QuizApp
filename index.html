@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="btn_start">
+        <button class="btn btn-warning btn-lg">Start Quiz</button>
+    </div>
+
+    <div class="card quiz_box">
+        <header class="card-header">
+            <div class="title">Quiz App</div>
+            
+            <div class="timer">
+                <div class="timer_text">Kalan Süre |</div>
+                <div class="timer_second"></div>
+            </div>
+
+            <div class="timer_line"></div>
+        </header>
+        
+        <section class="card-body">
+            <div class="question_text">
+            </div>
+
+            <div class="option_list">
+            </div>
+
+            <footer class="card-footer">
+                <div class="question_index">
+                   
+                </div>
+                <button class="next_btn btn btn-secondary btn-sm">Sonraki Soru</button>
+            </footer>
+        </section>
+    </div>
+
+    <div class="card score_box">
+        <div class="icon"><i class="fas fa-crown"></i></div>
+        <div class="score_text"></div>
+        <div class="buttons">
+            <button class="btn btn-warning btn_replay">Tekrar Başlat</button>
+            <button class="btn btn-warning btn_quit">Testi Bitir</button>
+        </div>
+    </div>
+    
+    
+    
+    <script src="question.js"></script>
+    <script src="quiz.js"></script>
+    <script src="ui.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
